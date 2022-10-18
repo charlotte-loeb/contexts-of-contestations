@@ -12,7 +12,7 @@ function getBase(l) {
 }
 
 function getHeader(b, p) {
-	return "<h1>Online Appendix - Shaping Civility [Blinded for Review]</h1>";
+	return "<h1>Online Appendix - Contexts of Contestations [Blinded for Review]</h1>";
 }
 				
 function getFooter(b, p) {
