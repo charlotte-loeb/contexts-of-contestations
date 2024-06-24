@@ -34,7 +34,7 @@
 				<div class="col-sm-10">
 					<h3>Effects of Political System, Socio-cultural Division, and Media Type on Actor Inclusiveness Indicators</h3>
 					<p>
-						The following table shows the numerical estimates from  mixed-effects logistic regression models regressing the actor inclusiveness indicators (civil society, journalist & blogger, citizen, expert, oppositions speaker) and the numerical estimates from a mixed-effects Poisson regression model regressing the variable religious multiperspectivalness on the three factors (1) type of political system, (2) socio-cultural division, and (3) media type.
+						The following table shows the numerical estimates from  mixed-effects logistic regression models regressing the actor inclusiveness indicators (civil society, journalist & blogger, citizen, expert, oppositions speaker) and the numerical estimates from a mixed-effects Poisson regression model regressing the item-level count variable religious multiperspectivalness on the three factors (1) type of political system, (2) socio-cultural division, and (3) media type.
 					
 					</p>
 					<table class="table table-condensed table-striped" style="width: auto;"align=char char=".">
@@ -152,14 +152,114 @@
 							<td class="text-center">.28**</td> <! -- Relig. multip. -->
 							<td class="text-center">.10</td>
 						</tr>
+						<tr>
+						    <td><i>N</i> (media outlets)</td>
+						   	<td colspan="2" class="text-center" >99</td> <! -- civil society -->
+							<td colspan="2" class="text-center" >99</td> <! -- Jour & blogger -->
+							<td colspan="2" class="text-center" >99</td> <! -- Citizen -->
+							<td colspan="2" class="text-center" >99</td> <! -- Expert -->
+							<td colspan="2" class="text-center" >96</td> <! -- Opposition actor -->
+							<td colspan="2" class="text-center" >99</td> <! -- Relig. multip. -->
+							
+							
+						</tr>
+						<tr>
+						    <td><i>N</i> (news items)</td>
+							<td colspan="2" class="text-center" >1,697</td> <! -- civil society -->
+							<td colspan="2" class="text-center" >1,697</td> <! -- Jour & blogger -->
+							<td colspan="2" class="text-center" >1,697</td> <! -- Citizen -->
+							<td colspan="2" class="text-center" >1,697</td> <! -- Expert -->
+							<td colspan="2" class="text-center" >896</td> <! -- Opposition actor -->
+							<td colspan="2" class="text-center" >1,700</td> <! -- Relig. multip. -->
+						</tr>
+						<tr>
+						    <td><i>N</i> (news actors)</td>
+							<td colspan="2" class="text-center" >13,121</td> <! -- civil society -->
+							<td colspan="2" class="text-center" >14,204</td> <! -- Jour & blogger -->
+							<td colspan="2" class="text-center" >13,121</td> <! -- Citizen -->
+							<td colspan="2" class="text-center" >13,121</td> <! -- Expert -->
+							<td colspan="2" class="text-center" >2,836</td> <! -- Opposition actor -->
+							<td colspan="2" class="text-center" >-</td> <! -- Relig. multip. -->
+						</tr>
 					</tbody>
 					</table>
 					<p>
 						<i>Note</i>: Cell entries are unstandardized coefficients with standard errors (SE) from mixed-effects logistic regression models (civil society, citizen, expert, and opposition speaker) for and a mixed-effects Poisson regression model (for religious multiperspectivalness). Reference categories for categorical independent variables given in parentheses. * p < .05; ** p < .01; *** p < .001
 					</p>
-					<h3>Regression Models</h3>
+					
+					<h3>Effects of Political System, Socio-cultural Division, and Media Type on Idea Inclusiveness Indicator</h3>
 					<p>
-						The following table (T4) shows the numerical estimates from a mixed-effects Poisson regression model regressing the item-level count variable justification frequency on the three factors (1) type of political system, (2) socio-cultural division, and (3) media type.
+						The following table shows the numerical estimates from a mixed-effects logistig regression model regressing variable opposing positions on the three factors (1) type of political system, (2) socio-cultural division, and (3) media type.
+					</p>
+					<table class="table table-condensed table-striped" style="width: auto;">
+					<thead>
+						<tr>
+							<th style="width: 60%" rowspan="2" ></th>
+							<th class="text-center" style="width: 40%" colspan="2">Opposing positions</th>
+							
+						</tr>
+						<tr>
+							<th class="text-center"><i>B</i></td>
+							<th class="text-center"><i>SE</i></td>
+						</tr>
+					</thead>
+					<tbody class="me-table">
+						
+						<tr>
+							<td colspan="3"><b>Political system</b></td>
+						</tr>
+						<tr>
+							<td>Mixed (vs Majoritarian)</td>
+							<td class="text-center">-1.98***</td>
+							<td class="text-center">.23</td>
+							
+						</tr>
+						<tr>
+							<td>Consensus (vs Majoritarian)</td>
+							<td class="text-center">-2.35*** </td>
+							<td class="text-center">.26 </td>
+						
+						</tr>
+						<tr>
+							<td colspan="3"><b>Societal division</b></td>
+						</tr>
+						<tr>
+							<td>Stable secularism (vs Contested secularism)</td>
+							<td class="text-center">.28 </td>
+							<td class="text-center">.20 </td>
+							
+						</tr>
+						<tr>
+							<td colspan="3"><b>Media type</b></td>
+						</tr>
+						<tr>
+							<td>News website (vs Blog)</td>
+							<td class="text-center">.00 </td>
+							<td class="text-center">.23 </td>
+						
+						</tr>
+						<tr>
+							<td>Printed newspaper (vs Blog)</td>
+							<td class="text-center">.49 </td>
+							<td class="text-center">.26 </td>
+				
+						</tr>
+						<tr>
+						    <td><i>N</i> (media outlets)</td>
+						    <td colspan="2" class="text-center" >99</td>
+						</tr>
+						<tr>
+						    <td><i>N</i> (news items)</td>
+						    <td colspan="2" class="text-center" >1,671</td>
+						</tr>
+					</tbody>
+					</table>
+					<p>
+						<i>Note</i>: Cell entries are unstandardized coefficients with standard errors (SE) from a mixed-effects logistic regression model. Reference categories for categorical independent variables given in parentheses. * p < .05; ** p < .01; *** p < .001
+					</p>		
+					<h3>Effects of Political System, Socio-cultural Division, and Media Type on Justification Quantity Indicator</h3>
+					<p>
+						The following table shows the numerical estimates from a mixed-effects Poisson regression model regressing the item-level count variable justification frequency on the three factors (1) type of political system, (2) socio-cultural division, and (3) media type.
 					</p>
 					<table class="table table-condensed table-striped" style="width: auto;">
 					<thead>
@@ -179,15 +279,15 @@
 							<td colspan="3"><b>Political system</b></td>
 						</tr>
 						<tr>
-							<td>Mixed (vs Consensus)</td>
-							<td class="text-center">-.05</td>
-							<td class="text-center">.03</td>
+							<td>Mixed (vs Majoritarian)</td>
+							<td class="text-center">-.94***</td>
+							<td class="text-center">.11</td>
 							
 						</tr>
 						<tr>
-							<td>Majoritarian (vs Consensus)</td>
-							<td class="text-center">.05 </td>
-							<td class="text-center">-.04 </td>
+							<td>Consensus (vs Majoritarian)</td>
+							<td class="text-center">-.99*** </td>
+							<td class="text-center">.12 </td>
 						
 						</tr>
 						<tr>
@@ -195,8 +295,8 @@
 						</tr>
 						<tr>
 							<td>Contested secularism (vs Stable secularism)</td>
-							<td class="text-center">-.05 </td>
-							<td class="text-center">.04 </td>
+							<td class="text-center">.43*** </td>
+							<td class="text-center">.10 </td>
 							
 						</tr>
 						<tr>
@@ -204,14 +304,14 @@
 						</tr>
 						<tr>
 							<td>News website (vs Blog)</td>
-							<td class="text-center">.19 </td>
-							<td class="text-center">-.14 </td>
+							<td class="text-center">-.12 </td>
+							<td class="text-center">.11 </td>
 						
 						</tr>
 						<tr>
 							<td>Printed newspaper (vs Blog)</td>
-							<td class="text-center">.16 </td>
-							<td class="text-center">-.12 </td>
+							<td class="text-center">.08 </td>
+							<td class="text-center">.13 </td>
 				
 						</tr>
 						<tr>
@@ -227,6 +327,78 @@
 					<p>
 						<i>Note</i>: Cell entries are unstandardized coefficients with standard errors (SE) from a mixed-effects Poisson regression model. Reference categories for categorical independent variables given in parentheses. * p < .05; ** p < .01; *** p < .001
 					</p>
+					
+					<h3>Effects of Political System, Socio-cultural Division, and Media Type on Justification Quality Indicator</h3>
+					<p>
+						The following table shows the numerical estimates from a mixed-effects ordered logit regression model regressing the variable justification quality on the three factors (1) type of political system, (2) socio-cultural division, and (3) media type.
+					</p>
+					<table class="table table-condensed table-striped" style="width: auto;">
+					<thead>
+						<tr>
+							<th style="width: 60%" rowspan="2" ></th>
+							<th class="text-center" style="width: 40%" colspan="2">Justification types (DQI)</th>
+							
+						</tr>
+						<tr>
+							<th class="text-center"><i>B</i></td>
+							<th class="text-center"><i>SE</i></td>
+						</tr>
+					</thead>
+					<tbody class="me-table">
+						
+						<tr>
+							<td colspan="3"><b>Political system</b></td>
+						</tr>
+						<tr>
+							<td>Mixed (vs Majoritarian)</td>
+							<td class="text-center">.68**</td>
+							<td class="text-center">.25</td>
+							
+						</tr>
+						<tr>
+							<td>Consensus (vs Majoritarian)</td>
+							<td class="text-center">.95*** </td>
+							<td class="text-center">.19 </td>
+						
+						</tr>
+						<tr>
+							<td colspan="3"><b>Societal division</b></td>
+						</tr>
+						<tr>
+							<td>Contested secularism (vs Stable secularism)</td>
+							<td class="text-center">-.65*** </td>
+							<td class="text-center">.17 </td>
+							
+						</tr>
+						<tr>
+							<td colspan="3"><b>Media type</b></td>
+						</tr>
+						<tr>
+							<td>News website (vs Blog)</td>
+							<td class="text-center">.32 </td>
+							<td class="text-center">.21 </td>
+						
+						</tr>
+						<tr>
+							<td>Printed newspaper (vs Blog)</td>
+							<td class="text-center">.38 </td>
+							<td class="text-center">.20 </td>
+				
+						</tr>
+						<tr>
+						    <td><i>N</i> (media outlets)</td>
+						    <td colspan="2" class="text-center" >91</td>
+						</tr>
+						<tr>
+						    <td><i>N</i> (news items)</td>
+						    <td colspan="2" class="text-center" >1,798</td>
+						</tr>
+					</tbody>
+					</table>
+					<p>
+						<i>Note</i>: Note. Cell entries are unstandardized coefficients with standard errors (SE) from a mixed-effects ordered logit regression model. Reference categories for categorical independent variables given in parentheses. * p < .05; ** p < .01; *** p < .001
+					</p>
+					
 				</div>
 			</div>
 		</div>
